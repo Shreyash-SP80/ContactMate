@@ -1,17 +1,17 @@
-# 📇 Contact Manager Pro
+# Contact Manager Pro
 
 A professional, secure, and user-friendly contact management application built with Python and Streamlit. This application allows users to manage their personal and professional contacts with ease, featuring a clean interface, robust validation, and secure user authentication.
 
 ---
 
-## 🌟 Features
+## Features
 
-### 🔐 User Authentication
+### User Authentication
 - Secure user registration and login system
 - Account lockout after multiple failed attempts
 - Session management for persistent login
 
-### 📋 Contact Management
+### Contact Management
 - **Add Contacts**: Store names, phone numbers, and email addresses
 - **Edit Contacts**: Update existing contact information
 - **Delete Contacts**: Remove contacts with confirmation
