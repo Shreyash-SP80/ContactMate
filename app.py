@@ -6,6 +6,7 @@ import time as t1
 import re
 import pandas as pd
 from operations import ContactOperations
+# from operations import ContactOperations
 
 # Page config with improved theme
 st.set_page_config(
@@ -756,4 +757,5 @@ def contact_manager():
 if 'logged_in' not in st.session_state or not st.session_state.logged_in:
     login_page()
 else:
+
     contact_manager()
