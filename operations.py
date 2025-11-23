@@ -3,7 +3,7 @@ from mysql.connector import Error
 
 class ContactOperations:
     def __init__(self):
-        self.db = Database()
+        self.db = Database() 
         self.connection = self.db.get_connection()
     
     def register_user(self, username, password):
@@ -164,4 +164,5 @@ class ContactOperations:
             return len(duplicates) > 0
         except Error as e:
             print(f"Error checking for duplicates: {e}")
+
             return False
