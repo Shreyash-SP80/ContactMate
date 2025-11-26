@@ -1,10 +1,10 @@
 from database import Database
 from mysql.connector import Error
 
-class ContactOperations:
-    def __init__(self):
-        self.db = Database() 
-        self.connection = self.db.get_connection()
+# class ContactOperations:
+#     def __init__(self):
+#         self.db = Database() 
+#         self.connection = self.db.get_connection()
     
     def register_user(self, username, password):
         try:
@@ -166,3 +166,4 @@ class ContactOperations:
             print(f"Error checking for duplicates: {e}")
 
             return False
+
